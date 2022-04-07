@@ -1,0 +1,12 @@
+@media (max-width: 935px){
+    .sidebar{
+        display: none;
+    }
+    .navbar{
+        padding-left: 20px;
+    padding-right: 20px;
+    }
+    .content{
+        width: 612px;
+    }
+}

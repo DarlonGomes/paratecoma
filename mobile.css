@@ -1,0 +1,63 @@
+@media (max-width: 614px){
+    .navbar{
+        width: 100%;
+
+    }
+    .navbar .logo{
+        width: 337px;
+    }
+    .logo .divisor{
+        display: none;
+    }
+
+    .navbar input{
+        display:none;
+    }
+
+    .navbar nav{
+        width: 18px;
+    }
+
+    nav ion-icon:nth-child(2){
+        display: none;
+    }
+    nav ion-icon:nth-child(3){
+        display: none;
+    }
+    nav ion-icon:nth-child(4){
+        display: none;
+    }
+    
+
+    .storyBox{
+    width: 614px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: none;
+    border: none;
+    }
+
+    .storyBox ion-icon{
+        display: none;
+    }
+
+    .content{
+        width: 612px;
+    }
+
+
+        .bottomBar{
+            width: 614px;
+            height: 54px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            position: fixed;
+            bottom: 0px;
+            right: 0px;
+            border: 1px solid #DBDBDB;
+            background-color: #FFFFFF;
+            
+        }
+    
+}
